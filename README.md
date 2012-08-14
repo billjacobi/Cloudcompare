@@ -1,4 +1,5 @@
-Cloudcompare
-============
+We are building a series of apps on Amazon AWS, Microsoft Windows Azure, and Google Compute Engine to compare the capabilities and limits of each cloud platform.
 
-Build an app or a series of apps that run identically on AWS, Azure, and GCS in Windows and Linux to learn cloud differences. Use benchmark style apps (e.g. SuperPi) to push the limits of cloud capabilities to determine limits of cloud offerings and effectiveness of auto-scaling and redundancy features. Using python because of its support across Linux and Windows and its support across cloud service providers.   
+We are building a series of benchmark style apps to test the limits of CPU, storage, and networking capabilities across these platforms. Our primary development language is Python because it is supported across all cloud providers and across Windows and Linux instances. Our applications will uncover the performance and reliability limits of the underlying platforms, and, along the way, we will post our observations about our experiences in leveraging the platforms.
+
+Oure code is stored in the winscale and linscale repos. 
